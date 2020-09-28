@@ -21,9 +21,8 @@ declare
         else
           {Aux T Epsilon H H}
         end
-      else
-        0
       end
     end
   end
-  {Browse {Approximate [1 5 7 6] 0}}
+  {Browse {Approximate [11.12 5.0 7.0 6.0] 3.0}}
+  {Browse {Approximate [111 50 70 60] 10}}
