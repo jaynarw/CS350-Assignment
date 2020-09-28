@@ -2,12 +2,12 @@ declare
   fun {FoldL BinOp Xs I}
     case Xs
     of nil then I
-    [] H|T then {FoldL2 BinOp T {BinOp I H}}
+    [] H|T then {FoldL BinOp T {BinOp I H}}
     end
   end
 declare
-fun {Sum X Y}
-  Y + X
+fun {Test X Y}
+  2*X + Y
 end
 
-{Browse {FoldL Sum [1 2 3] 0}}
+{Browse {FoldL Test [1 2 3] 4}}
