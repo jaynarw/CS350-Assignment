@@ -5,7 +5,7 @@ All the questions have been attempted.
 
 ## Instructions
 1. Run `ghci Assignment3.hs`.
-2. Call functions as given in hw3.pdf
+2. Call functions as given in [Assignment Description](hw3.pdf)
 
 ### I certify that this assignment/report is my own work.
 #### Name: Jayesh Narwaria, Roll No. 170325
